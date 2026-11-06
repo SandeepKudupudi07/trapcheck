@@ -1,0 +1,42 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+venv/
+env/
+.venv/
+
+# Database files (auto-created on first run)
+**/data/chromadb/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+.test-artifacts/
+.pytest_cache/
+
+# VS Code (keep .vscode/launch.json and settings.json)
+.vscode/*
+!.vscode/launch.json
+!.vscode/settings.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Node (for frontend)
+node_modules/
+dist/
+build/
